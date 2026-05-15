@@ -1,0 +1,1 @@
+# HTML Page that sends a http request to a FastAPI backend
