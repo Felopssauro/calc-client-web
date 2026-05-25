@@ -21,4 +21,9 @@ async function sendData() {
 	}
 }
 
-document.getElementById('add').addEventListener('click', sendData);
+document.addEventListener('DOMContentLoaded', () => {
+	const addButton = document.getElementById('add');
+	if (addButton) {
+		addButton.addEventListener('click', sendData);
+	}
+});
